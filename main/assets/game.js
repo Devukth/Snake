@@ -12,7 +12,7 @@ var gameOver = false;
 function main(currentTime) {
     if(gameOver) {
         if(confirm("You lost! Retry?")) {
-            window.location = "/main";
+            window.location = "/Snake/main";
         }
         return;
     }
